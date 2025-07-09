@@ -53,6 +53,6 @@ We follow the principle of least privilege for all contributors and collaborator
 
 We take security seriously, and we are committed to continuously improving the security posture of our project. By following these guidelines, we hope to ensure that this project remains secure, trustworthy, and reliable for all users and contributors.
 
-If you have any questions or concerns regarding this Security Policy, please do not hesitate to contact us at **security@skygenesisenterprise.com**.
+If you have any questions or concerns regarding this Security Policy, please do not hesitate to contact us at **security@astron-collection.com**.
 
 Thank you for helping us keep our project secure.
