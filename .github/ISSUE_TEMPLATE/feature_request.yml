@@ -1,0 +1,56 @@
+name: ✨ Feature Request
+description: Suggest a new idea or improvement for the Astron Collection.
+title: "[Feature]: "
+labels: [enhancement, needs-triage]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got an idea to improve Astron? Tell us about it! The more context you give, the better we can understand your vision.
+
+  - type: input
+    id: scope
+    attributes:
+      label: Which app/module would this apply to?
+      placeholder: ex. astron-modmail, astron-api, astron-guild
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Describe the feature or enhancement
+      description: Be clear and specific. What should this feature do?
+      placeholder: I’d like a dashboard widget that shows live stats for...
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why is this needed?
+      description: Explain why this feature would be valuable.
+      placeholder: This would help admins see project status faster...
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context or mockups
+      description: Add any extra ideas, sketches, or links.
+      placeholder: Screenshot, Figma link, Discord message, etc.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I’ve checked for similar feature requests.
+          required: true
+        - label: I’ve described my idea clearly and with context.
+          required: true
