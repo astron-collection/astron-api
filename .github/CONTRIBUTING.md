@@ -31,7 +31,7 @@ You can contribute in several ways:
 2. Clone your fork:
    ```bash
    git clone https://github.com/astron-collection/astron-api.git
-````
+```
 
 3. Navigate to the project:
 
