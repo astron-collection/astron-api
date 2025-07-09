@@ -29,27 +29,26 @@ You can contribute in several ways:
 
 1. **Fork the repository**
 2. Clone your fork:
-   ```bash
+```bash
    git clone https://github.com/astron-collection/astron-api.git
 ```
 
 3. Navigate to the project:
-
-   ```bash
-   cd astron
-   ```
+```bash
+cd astron
+```
 4. Install dependencies:
 
-   ```bash
+```bash
    pnpm install
    # or
    npm install
-   ```
+```
 5. Run in development mode:
 
-   ```bash
+```bash
    pnpm dev
-   ```
+```
 
 Make sure your code passes linting and tests before submitting:
 
@@ -64,15 +63,15 @@ pnpm test
 
 1. Create a new branch:
 
-   ```bash
+```bash
    git checkout -b feat/my-new-feature
-   ```
+```
 2. Make your changes
 3. Commit with a meaningful message:
 
-   ```bash
+ ```bash
    git commit -m "feat(core): add new feature for XYZ"
-   ```
+```
 4. Push and create a Pull Request on GitHub
 
 ---
