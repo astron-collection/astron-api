@@ -24,7 +24,7 @@ The **Astron API** is the backend foundation of the Astron Collection — a suit
 ```bash
 # Clone the project
 git clone https://github.com/astron-collection/astron-api.git
-cd api
+cd astron-api
 
 # Install dependencies
 npm install
