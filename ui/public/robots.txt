@@ -3,4 +3,4 @@ Disallow: /private/
 Disallow: /admin/
 Allow: /
 
-Sitemap: https://webmail.skygenesisenterprise.com/sitemap.xml
+Sitemap: https://api.astron-collection.com/sitemap.xml

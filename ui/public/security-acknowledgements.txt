@@ -3,7 +3,7 @@
 We would like to thank the following individuals and organizations for their contributions to the security of Aether Mail:
 
 ## Researchers
-- Team contact (research@skygenesisenterprise.com)  
+- Team contact (research@astron-collection.com)  
   For identifying and reporting a critical vulnerability in the authentication system.
 
 - Liam Dispa (@liamvnastoria)  

@@ -2,6 +2,7 @@
   "name": "ui",
   "version": "1.0.0",
   "description": "Frontend React + Vite",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
@@ -12,10 +13,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "nvm": "^0.0.4",
     "react": "^19.1.0",
     "react-router-dom": "^7.6.3"
   },
   "devDependencies": {
-    "@types/react": "^19.1.8"
+    "@types/react": "^19.1.8",
+    "vite": "^7.0.3"
   }
 }

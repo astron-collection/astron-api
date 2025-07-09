@@ -1,7 +1,7 @@
 /* TEAM */
-Developer: Sky Genesis Enterprise 
-Contact: contact@skygenesisenterprise.com
-Website: https://skygenesisenterprise.com
+Developer: Astron Collection Team 
+Contact: contact@astron-collection.com
+Website: https://astron-collection.com
 
 /* THANKS */
 Framework: React, TypeScript

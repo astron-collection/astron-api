@@ -1,6 +1,6 @@
 {
-  "name": "Aether Mail",
-  "short_name": "Aether",
+  "name": "Astron Collection API",
+  "short_name": "Astron",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
