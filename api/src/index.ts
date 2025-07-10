@@ -25,14 +25,13 @@ app.use(
   })
 );
 
-// Protection contre l’injection NoSQL
-app.use(mongoSanitize());
-
-// Protection contre les attaques XSS
-app.use(xss());
-
-// Middleware pour parser le JSON
+// ✅ Middleware pour parser les requêtes
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+// ✅ Ensuite seulement, les protections
+app.use(mongoSanitize());
+app.use(xss());
 
 // Endpoint de base pour vérifier que l'API fonctionne
 app.get('/', (req, res) => {
